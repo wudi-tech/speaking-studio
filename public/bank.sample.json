@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "sample": true,
+  "notice": "合成示例题包，仅演示软件功能，不是官方题库或作者真实经历。",
+  "questions": [
+    {
+      "id": "P1-01-01",
+      "text": "Are you a student or do you work?",
+      "english": "I'm a university student. I enjoy practical lessons because they help me connect ideas with everyday problems.",
+      "keywords": "university student / practical lessons / everyday problems",
+      "chinese": "合成示例：大学生→喜欢实践课→联系日常问题",
+      "part": 1,
+      "day": 1,
+      "topic": "Study",
+      "work": false,
+      "points": [],
+      "parent": null,
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P1-01-02",
+      "text": "What do you enjoy learning?",
+      "english": "I enjoy learning how everyday tools work. Trying a small experiment helps me understand an idea better than reading about it alone.",
+      "keywords": "everyday tools / small experiment / understand",
+      "chinese": "合成示例：日常工具→做小实验→理解原理",
+      "part": 1,
+      "day": 1,
+      "topic": "Study",
+      "work": false,
+      "points": [],
+      "parent": null,
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P1-01-03",
+      "text": "Where do you usually study?",
+      "english": "I usually study in a quiet room. A clear desk helps me focus, and I keep my phone away when I need to finish something.",
+      "keywords": "quiet room / clear desk / phone away",
+      "chinese": "合成示例：安静房间→桌面整洁→放下手机",
+      "part": 1,
+      "day": 1,
+      "topic": "Study",
+      "work": false,
+      "points": [],
+      "parent": null,
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P1-01-04",
+      "text": "Do you prefer learning alone or with other people?",
+      "english": "I prefer starting alone so I can work at my own pace. After that, discussing a difficult point with a friend is useful.",
+      "keywords": "start alone / own pace / discuss later",
+      "chinese": "合成示例：先独学→按自己的节奏→之后讨论难点",
+      "part": 1,
+      "day": 1,
+      "topic": "Study",
+      "work": false,
+      "points": [],
+      "parent": null,
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P1-01-05",
+      "text": "How do you plan your study time?",
+      "english": "I make a short list before I start. I choose one important task first and leave a little extra time for anything unexpected.",
+      "keywords": "short list / important task / extra time",
+      "chinese": "合成示例：列短清单→先做重要任务→留余地",
+      "part": 1,
+      "day": 1,
+      "topic": "Study",
+      "work": false,
+      "points": [],
+      "parent": null,
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P1-01-06",
+      "text": "Would you like to learn a new skill?",
+      "english": "Yes, I would like to improve my cooking. Being able to make a few simple meals would be useful and enjoyable.",
+      "keywords": "cooking / simple meals / useful",
+      "chinese": "合成示例：想学做饭→简单饭菜→实用且有趣",
+      "part": 1,
+      "day": 1,
+      "topic": "Study",
+      "work": false,
+      "points": [],
+      "parent": null,
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P2-01",
+      "text": "Describe a tool that helps you organise your day.",
+      "english": "I'd like to describe a small notebook. This is a fictional practice example.\n\nThe student in this example keeps it on the desk and writes three tasks each morning. The list is deliberately short, so it is easy to understand what matters most.\n\nOne useful feature is the empty space next to each task. The student can add a quick note about what went well or what needs more time.\n\nFor example, a large project can be divided into reading, planning and checking. Finishing one small step makes the next step feel more manageable.\n\nThe notebook is helpful because it makes progress visible without creating a complicated routine. It can also be put away at the end of the day.\n\nIf I used a similar tool, I would keep the plan flexible and leave room for unexpected work.",
+      "keywords": "small notebook / three tasks / notes / smaller steps / visible progress / flexible plan",
+      "chinese": "合成示例：笔记本→每天三件事→旁边做记录→拆分大任务→看到进步→灵活安排",
+      "part": 2,
+      "day": 1,
+      "topic": "A useful tool",
+      "work": false,
+      "points": [
+        "What the tool is",
+        "How someone uses it",
+        "When it is useful",
+        "Why you think it helps"
+      ],
+      "parent": null,
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P3-01-01",
+      "text": "Why do some people like making plans?",
+      "english": "Plans can make a busy day feel more manageable. They help people choose what to do first instead of thinking about every task at once.",
+      "keywords": "manageable / priorities / fewer decisions",
+      "chinese": "合成示例：有条理→确定优先级→减少临时决策",
+      "part": 3,
+      "day": 1,
+      "topic": "A useful tool",
+      "work": false,
+      "points": [],
+      "parent": "P2-01",
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P3-01-02",
+      "text": "Can a plan ever be too detailed?",
+      "english": "Yes. A very detailed plan may be difficult to follow when circumstances change. Leaving some spare time makes it easier to adjust.",
+      "keywords": "too detailed / changes / spare time",
+      "chinese": "合成示例：过细难执行→情况变化→预留时间",
+      "part": 3,
+      "day": 1,
+      "topic": "A useful tool",
+      "work": false,
+      "points": [],
+      "parent": "P2-01",
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P3-01-03",
+      "text": "How can young people learn to organise their time?",
+      "english": "They can begin with one small responsibility. For example, planning a short study session can teach them to estimate time and check their progress.",
+      "keywords": "small responsibility / estimate / check",
+      "chinese": "合成示例：小责任开始→估时→检查进度",
+      "part": 3,
+      "day": 1,
+      "topic": "A useful tool",
+      "work": false,
+      "points": [],
+      "parent": "P2-01",
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P3-01-04",
+      "text": "Do digital tools always improve productivity?",
+      "english": "Not always. A simple tool can help, but frequent notifications can interrupt concentration. The way people use a tool matters more than the number of features.",
+      "keywords": "not always / notifications / use matters",
+      "chinese": "合成示例：不一定→通知分心→使用方法更重要",
+      "part": 3,
+      "day": 1,
+      "topic": "A useful tool",
+      "work": false,
+      "points": [],
+      "parent": "P2-01",
+      "materials": [
+        "A"
+      ]
+    },
+    {
+      "id": "P3-01-05",
+      "text": "Should schools teach planning skills?",
+      "english": "Yes, because planning is useful beyond examinations. Students could practise by organising a small group task and reflecting on what they would change next time.",
+      "keywords": "beyond exams / group task / reflect",
+      "chinese": "合成示例：超出考试→小组任务→复盘改进",
+      "part": 3,
+      "day": 1,
+      "topic": "A useful tool",
+      "work": false,
+      "points": [],
+      "parent": "P2-01",
+      "materials": [
+        "A"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "示例组 · 学习与计划",
+      "ids": [
+        "P1-01-01",
+        "P1-01-02",
+        "P1-01-03",
+        "P1-01-04",
+        "P1-01-05",
+        "P1-01-06",
+        "P2-01",
+        "P3-01-01",
+        "P3-01-02",
+        "P3-01-03",
+        "P3-01-04",
+        "P3-01-05"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "A",
+      "title": "合成素材：笔记本与任务清单",
+      "text": "以下仅为虚构的功能演示素材：一名学生每天在笔记本写三项任务，将大任务拆成小步骤，晚上复盘。请用自己的真实经历替换。"
+    }
+  ]
+}

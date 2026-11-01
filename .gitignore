@@ -1,0 +1,16 @@
+node_modules/
+.env
+artifacts/
+*.log
+data/
+
+# Private study pack, personal materials and local publishing notes
+/public/bank.json
+/LOCAL_NOTES.md
+/publication-private/
+*.pem
+*.key
+
+# Workspace-specific conversion and planning, kept locally
+/scripts/build_bank.py
+/IMPLEMENTATION.md
