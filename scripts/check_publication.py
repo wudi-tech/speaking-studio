@@ -15,7 +15,7 @@ for name in files:
     data=subprocess.check_output(['git','show',':'+name])
     if len(data)>2_000_000:
         issues.append((name,'unexpectedly large file'))
-    text=data.decode('utf-8-sig')
+    text=data.decode('utf-8-sig',errors='replace')
     if re.search(r'(?:github_pat_|gh[pousr]_|sk-(?:proj-)?)[A-Za-z0-9_\-]{20,}',text):
         issues.append((name,'possible live credential'))
     if re.search(r'(?:[A-Za-z]:[/\\]Users[/\\]|G:[/\\]资料|D:[/\\]Documents)',text):
