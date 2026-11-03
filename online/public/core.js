@@ -11,3 +11,17 @@ export function validateBackup(d){
  return true;
 }
 export const format=s=>{s=Math.ceil(Math.max(0,s));return `${Math.floor(s/60).toString().padStart(2,'0')}:${(s%60).toString().padStart(2,'0')}`;};
+
+// Apply a shipped hint pack once. Keep practice data and later personal edits.
+export function applyHintUpdate(state,bank){
+ const id=bank.hintUpdate?.id;
+ if(!id||state.appliedHintUpdates?.includes(id))return state;
+ const incoming=new Map(bank.questions.map(q=>[q.id,q]));
+ const questions=state.questions.map(q=>{
+  const source=incoming.get(q.id);if(!source||source.text!==q.text)return q;
+  const fields=['keywords','chinese'].filter(f=>typeof source[f]==='string'&&source[f].trim());
+  if(!fields.some(f=>q[f]!==source[f]))return q;
+  return {...q,recoveredHints:[...(q.recoveredHints||[]),{english:q.english,keywords:q.keywords,chinese:q.chinese,beforeHintUpdate:id}],...Object.fromEntries(fields.map(f=>[f,source[f]]))};
+ });
+ return {...state,questions,appliedHintUpdates:[...(state.appliedHintUpdates||[]),id]};
+}

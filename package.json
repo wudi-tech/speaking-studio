@@ -1,11 +1,11 @@
 {
   "name": "speaking-studio",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "test": "node --test tests/core.test.mjs tests/disk.test.mjs tests/sample-bank.test.mjs",
+    "test": "node --test tests/core.test.mjs tests/disk.test.mjs tests/sample-bank.test.mjs tests/hint-update.test.mjs",
     "test:browser": "node tests/all-browser.mjs"
   },
   "devDependencies": {
